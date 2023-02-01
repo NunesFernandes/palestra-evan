@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 20px;
+    background-color: rgba(110, 110, 250, 0.534);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient( to bottom, blue, white);
+    color:white;
+    text-align: center;
+    min-height: 40px;
+    padding: 40px;
+}
+header > h1 {
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    text-align: center; 
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+h1#cor {
+    text-shadow: 0px 0px 5px black;
+}
+div {
+    margin: auto;
+    padding: 10px;  
+    width: 90px;
+    height: 120px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.507);
+
+}
+div img {
+    max-width: 20vw;
+    max-height: 20vh;
+}
+
+
+
+main {
+    background-color: #313961
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+}
+
+
+
+main > article >h2 {
+    background-color: rgba(11, 11, 245, 0.5);
+    border-radius: 10px;
+    color:white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+   
+}
+main > article > p {
+    margin: 15px 0px;
+    text-align: justify;
+    line-height: 2em;
+    /* Text-indente mexe na lateral esquerde do texto */
+    text-indent: 30px;
+    font-size: 1em;  
+}
+article {
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.651);
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+
+    
+}
+footer {
+    background-color: rgba(0, 0, 255, 0.226);
+    color: white; 
+    font-size: 1em;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+   
