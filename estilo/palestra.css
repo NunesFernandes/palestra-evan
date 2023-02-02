@@ -82,10 +82,15 @@ article {
     margin-bottom: 10px;
     background-color: white;
     border-bottom-right-radius: 15px;
-   border-bottom-left-radius: 15px;
-
-    
+   border-bottom-left-radius: 15px;    
 }
+a {
+    text-decoration: none;
+}
+ a:hover { 
+    text-transform:uppercase;
+} 
+
 footer {
     background-color: rgba(0, 0, 255, 0.226);
     color: white; 
