@@ -17,6 +17,11 @@ header {
     min-height: 40px;
     padding: 40px;
 }
+header p {
+    padding-top: 10px;
+    
+    color:black;
+}
 header > h1 {
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
@@ -91,7 +96,7 @@ nav {
     border-radius: 5px;
 }
 nav a {
-    background-color: #a0ace9f6;
+    background-color: #5e76eef6;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
