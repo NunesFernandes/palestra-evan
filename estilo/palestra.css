@@ -94,6 +94,9 @@ article {
 article p {
     text-align: center;
 }
+nav p {
+    text-align: left;
+}
 nav {
     padding: 10px;
     line-height: 3.5em;
