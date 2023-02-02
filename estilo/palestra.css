@@ -92,7 +92,7 @@ article {
    border-bottom-left-radius: 15px;    
 }
 article p {
-    text-align: center;
+    text-align: 100vw;
 }
 nav p {
     text-align: left;
