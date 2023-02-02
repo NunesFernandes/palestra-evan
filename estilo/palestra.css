@@ -84,11 +84,28 @@ article {
     border-bottom-right-radius: 15px;
    border-bottom-left-radius: 15px;    
 }
+nav {
+    padding: 10px;
+    line-height: 2.5em;
+    border: 1px solid rgb(0, 0, 255);
+    border-radius: 5px;
+}
+nav a {
+    background-color: #a0ace9f6;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+   
+}
+nav a:hover {
+    background-color: mediumblue;
+}
 a {
     text-decoration: none;
 }
  a:hover { 
     text-transform:uppercase;
+    
 } 
 
 footer {
