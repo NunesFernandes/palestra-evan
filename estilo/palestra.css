@@ -17,10 +17,12 @@ header {
     min-height: 40px;
     padding: 40px;
 }
-header p {
+header > p {
     padding-top: 10px;
-    
-    color:black;
+    color:rgb(93, 45, 156);
+    font-weight: bold;
+    line-height: 2em;
+
 }
 header > h1 {
     color: white;
@@ -30,7 +32,7 @@ header > h1 {
     margin-bottom: 20px;
 }
 h1#cor {
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 5px rgb(46, 17, 83);
 }
 div {
     margin: auto;
@@ -88,6 +90,9 @@ article {
     background-color: white;
     border-bottom-right-radius: 15px;
    border-bottom-left-radius: 15px;    
+}
+article p {
+    text-align: center;
 }
 nav {
     padding: 10px;
