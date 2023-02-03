@@ -97,27 +97,27 @@ article p {
 nav p {
     text-align: left;
 }
-nav {
+.um {
     padding: 10px;
     line-height: 3.5em;
     border: 1px solid rgb(0, 0, 255);
     border-radius: 5px;
 }
-nav a {
+.um > a {
     background-color: #5e76eef6;
     color: #fff;
     padding: 5px;
     border-radius: 5px;
    
 }
-nav a:hover {
+article .um > a:hover {
     background-color: mediumblue;
 }
 a {
     text-decoration: none;
 }
  a:hover { 
-    text-transform:uppercase;
+    text-transform:capitalize;
     
 } 
 
