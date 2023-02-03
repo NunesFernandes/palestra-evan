@@ -49,9 +49,15 @@ div img {
 }
 
 
+body.imagem {
+    background-image: url(../imagens/luz.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
 
+}
 main {
-    background-color: #313961
+    background-color: #3139
     padding: 20px;
     min-width: 300px;
     max-width: 1000px;
@@ -84,6 +90,8 @@ main > article > p {
     font-size: 1em;  
 }
 article {
+    margin: auto;
+    width: 80%;
     padding: 15px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.651);
     margin-bottom: 10px;
@@ -94,30 +102,33 @@ article {
 article p {
     text-align: 100vw;
 }
-nav p {
-    text-align: left;
+
+.um p {
+    font-size: 0.95em;
 }
 .um {
     padding: 10px;
     line-height: 3.5em;
-    border: 1px solid rgb(0, 0, 255);
+    border: 1px solid rgb(37, 37, 43);
     border-radius: 5px;
 }
-.um > a {
-    background-color: #5e76eef6;
+article.um > a {
+    
     color: #fff;
     padding: 5px;
     border-radius: 5px;
    
 }
-article .um > a:hover {
-    background-color: mediumblue;
+article.um > :hover {
+    background-color: rgb(163, 163, 223);
+    border-radius: 10px;
 }
 a {
     text-decoration: none;
 }
  a:hover { 
     text-transform:capitalize;
+    font-size: 0.8em;
     
 } 
 
