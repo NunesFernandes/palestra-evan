@@ -21,6 +21,8 @@ body {
    
 
 }
+
+
 header {
     background-image: linear-gradient( to bottom, blue, white);
     color:white;
@@ -126,7 +128,7 @@ article p {
 }
 article.um > a {
     
-    color: #fff;
+    color: #353030;
     padding: 5px;
     border-radius: 5px;
    
