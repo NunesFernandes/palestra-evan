@@ -10,6 +10,16 @@ body {
     background-color: rgba(110, 110, 250, 0.534);
     font-family: Arial, Helvetica, sans-serif;
 }
+#rm {
+    color:white;
+    background-image: url(../imagens/reismagos.jpg);
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    
+   
+
+}
 header {
     background-image: linear-gradient( to bottom, blue, white);
     color:white;
