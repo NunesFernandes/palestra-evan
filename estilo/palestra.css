@@ -11,6 +11,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 #rm {
+    height: 400px;
     color:white;
     background-image: url(../imagens/reismagos.jpg);
     background-attachment: fixed;
@@ -108,7 +109,7 @@ article {
     width: max-content 400px;
     padding: 15px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.651);
-    margin-bottom: 90px;
+    margin-bottom: 30px;
     background-color: white;
     border-bottom-right-radius: 15px;
    border-bottom-left-radius: 15px;    
